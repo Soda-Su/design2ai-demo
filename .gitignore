@@ -1,0 +1,6 @@
+.DS_Store
+__MACOSX/
+
+# Local archives can be regenerated.
+*.zip
+!design2ai-demo.zip
