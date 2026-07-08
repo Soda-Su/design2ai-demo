@@ -3,7 +3,7 @@ name: design2ai-demo
 description: Create personalized six-week execution plans for designers, architects, HCI/UX students, and creative technologists building their first portfolio-ready AI demo. Use when the user asks for an AI demo learning plan, design-to-AI transition roadmap, Design Engineer portfolio project, HCI/UX AI prototype plan, architecture/design background technical stack guidance, or help turning an existing design project into a shippable AI demo without doing a full CS curriculum first.
 ---
 
-# design2ai_demo
+# Design-to-AI Demo Coach
 
 Created as a collaboration between 知城 / The Z Labs and Soda Chat.
 

@@ -1,6 +1,6 @@
-# design2ai_demo
+# Design-to-AI Demo Coach
 
-![Skill](https://img.shields.io/badge/AI%20Skill-design2ai__demo-002FA7)
+![Skill](https://img.shields.io/badge/AI%20Skill-Design--to--AI%20Demo%20Coach-002FA7)
 ![Audience](https://img.shields.io/badge/audience-designers%20%7C%20architects%20%7C%20HCI%2FUX-111111)
 ![Plan](https://img.shields.io/badge/plan-6%20weeks-00A86B)
 ![Stack](https://img.shields.io/badge/stack-Next.js%20%2B%20Claude%20API%20%2B%20Vercel-6B46C1)
@@ -9,7 +9,7 @@
 
 **A six-week AI demo coach for designers who do not want to start with a full CS curriculum.**
 
-`design2ai_demo` is a public Claude/Codex skill for designers, architects, HCI/UX students, and creative technologists who want to build their first portfolio-ready AI demo.
+**Design-to-AI Demo Coach** is a public Claude/Codex skill for designers, architects, HCI/UX students, and creative technologists who want to build their first portfolio-ready AI demo.
 
 Created as a collaboration between **知城 / The Z Labs** and **Soda Chat**.
 
@@ -110,12 +110,12 @@ cp -R design2ai-demo ~/.claude/skills/
 Copy this into an AI agent with shell access:
 
 ```text
-Install the design2ai_demo skill. Please copy the `design2ai-demo` folder into my local skills directory, verify that `SKILL.md`, `references/`, `examples/`, and `evals/` exist, then tell me how to invoke it with `$design2ai-demo`.
+Install Design-to-AI Demo Coach. Please copy the `design2ai-demo` folder into my local skills directory, verify that `SKILL.md`, `references/`, `examples/`, and `evals/` exist, then tell me how to invoke it with `$design2ai-demo`.
 ```
 
 ## Skill Name
 
-The installable skill folder is `design2ai-demo` because skill metadata requires lowercase letters, digits, and hyphens. The public display name is `design2ai_demo`.
+The installable skill folder is `design2ai-demo` because skill metadata requires lowercase letters, digits, and hyphens. The public display name is **Design-to-AI Demo Coach**.
 
 Invoke it as:
 

@@ -1,4 +1,4 @@
 interface:
-  display_name: "design2ai_demo"
-  short_description: "Build a six-week AI demo plan for designers"
+  display_name: "Design-to-AI Demo Coach"
+  short_description: "Six-week AI demo coach for designers"
   default_prompt: "Use $design2ai-demo to create a personalized six-week plan for my first portfolio-ready AI demo."
