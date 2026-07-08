@@ -1,37 +1,117 @@
 # design2ai_demo
 
-`design2ai_demo` is a public Claude/Codex skill for designers, architects, HCI/UX students, and creative technologists who want to build their first portfolio-ready AI demo without starting from a full CS curriculum.
+![Skill](https://img.shields.io/badge/AI%20Skill-design2ai__demo-002FA7)
+![Audience](https://img.shields.io/badge/audience-designers%20%7C%20architects%20%7C%20HCI%2FUX-111111)
+![Plan](https://img.shields.io/badge/plan-6%20weeks-00A86B)
+![Stack](https://img.shields.io/badge/stack-Next.js%20%2B%20Claude%20API%20%2B%20Vercel-6B46C1)
+![Codex](https://img.shields.io/badge/works%20with-Codex-0A0A0A)
+![Claude](https://img.shields.io/badge/works%20with-Claude-DA7756)
+
+**A six-week AI demo coach for designers who do not want to start with a full CS curriculum.**
+
+`design2ai_demo` is a public Claude/Codex skill for designers, architects, HCI/UX students, and creative technologists who want to build their first portfolio-ready AI demo.
 
 Created as a collaboration between **知城 / The Z Labs** and **Soda Chat**.
 
-It turns a learner's background, coding level, project idea, portfolio goal, and weekly time budget into a focused six-week execution plan around one shippable AI demo.
+![Six-week roadmap preview](assets/roadmap-preview.svg)
 
-## What It Helps With
+## 30-Second Start
 
-- Narrowing a broad design-to-AI ambition into one buildable demo
-- Choosing the right first demo type: critique, workflow, generation, retrieval, or agent-like
-- Planning a six-week learning and build path
-- Avoiding early over-scope such as full RAG, auth, multi-agent systems, or a complete CS curriculum
-- Packaging the final demo as credible portfolio evidence
+Install the skill folder, then ask your agent:
 
-## Who It Is For
+```text
+Use $design2ai-demo to create a personalized six-week plan for my first portfolio-ready AI demo. I studied architecture, know Figma and a little HTML/CSS, and can spend 6 hours per week.
+```
 
-- Designers moving toward AI product or design engineering
-- Architecture or spatial design students building AI-adjacent portfolio work
-- HCI/UX students preparing application or job portfolio projects
-- Creative technologists who want a practical first AI web demo
+The skill will turn your background, coding level, project idea, portfolio goal, and weekly time budget into one focused execution plan.
 
-## Default Stack
+## What You Get
 
-The skill defaults to a conservative first-demo stack:
+- One scoped AI demo concept, not a buffet of vague ideas
+- A six-week build plan with weekly deliverables
+- A conservative technical stack for a first demo
+- Official learning resources mapped to each build step
+- Testing tasks that include failures, not just happy paths
+- A final portfolio package checklist
 
-- Frontend: Next.js
-- AI app layer: Vercel AI SDK
-- Model provider: Claude API by default
-- Alternative provider: OpenAI API
-- Data: JSON/CSV before databases or RAG
-- Deployment: Vercel
-- Version control: GitHub
+## Good For / Not For
+
+| Good for | Not for |
+|---|---|
+| First AI portfolio demos | Full CS curriculum planning |
+| Design-to-AI transition roadmaps | Machine learning research paths |
+| HCI/UX application projects | Production SaaS architecture |
+| Architecture or spatial-design AI concepts | Complex multi-agent systems |
+| Design Engineer evidence-building | Career guarantees |
+
+## How It Thinks
+
+The core principle is simple:
+
+> Do not learn the whole stack before starting. Learn the narrow stack needed to ship one real demo.
+
+Default stack:
+
+| Layer | Default choice | Why |
+|---|---|---|
+| Frontend | Next.js | Portfolio-ready web demo with server routes |
+| AI app layer | Vercel AI SDK | Practical model integration for web apps |
+| Model provider | Claude API | Strong default for critique, workflow, and synthesis demos |
+| Alternative model | OpenAI API | Useful for structured outputs and existing OpenAI projects |
+| Data | JSON/CSV first | Avoids premature database or RAG complexity |
+| Deployment | Vercel | Turns a local prototype into a shareable link |
+| Versioning | GitHub | Keeps the work reviewable and reusable |
+
+## Six-Week Roadmap
+
+| Week | Focus | Output |
+|---|---|---|
+| 1 | Scope the demo | One-page demo brief and 5 realistic inputs |
+| 2 | Build the shell | Clickable frontend with fake AI output |
+| 3 | Connect the model | One live Claude/OpenAI API call |
+| 4 | Stabilize output | Structured schema and fallback states |
+| 5 | Add real data and deploy | JSON/CSV source set and public Vercel link |
+| 6 | Test and package | Failure tests, walkthrough, and case-study outline |
+
+## Example Prompts
+
+```text
+Use $design2ai-demo to plan a six-week AI demo for an architecture student who wants to build around spatial design precedents.
+```
+
+```text
+Use $design2ai-demo. I am a UX designer with interview notes from a class project. Help me turn them into a portfolio-ready AI workflow demo.
+```
+
+```text
+Use $design2ai-demo to plan an HCI application project. I know React basics and want something more technical than a prompt wrapper.
+```
+
+## Installation
+
+### Option 1: Copy the skill folder
+
+Use the `design2ai-demo/` folder as the installable skill package.
+
+For local Codex-style usage:
+
+```bash
+cp -R design2ai-demo ~/.codex/skills/
+```
+
+For Claude-style local usage:
+
+```bash
+cp -R design2ai-demo ~/.claude/skills/
+```
+
+### Option 2: Ask an agent to install it
+
+Copy this into an AI agent with shell access:
+
+```text
+Install the design2ai_demo skill. Please copy the `design2ai-demo` folder into my local skills directory, verify that `SKILL.md`, `references/`, `examples/`, and `evals/` exist, then tell me how to invoke it with `$design2ai-demo`.
+```
 
 ## Skill Name
 
@@ -43,29 +123,14 @@ Invoke it as:
 Use $design2ai-demo to create a personalized six-week plan for my first portfolio-ready AI demo.
 ```
 
-## Example Prompt
-
-```text
-Use $design2ai-demo to create a personalized six-week plan for my first portfolio-ready AI demo. I studied architecture, know Figma and a little HTML/CSS, and can spend 6 hours per week.
-```
-
-## Example Output Shape
-
-The skill is designed to return:
-
-- Assumptions and learner profile
-- Recommended demo concept
-- Technical stack and why it is enough
-- Six-week table with weekly goals, learning resources, build tasks, deliverables, and done criteria
-- What not to learn yet
-- Final portfolio package checklist
-
 ## Repository Structure
 
 ```text
 .
   README.md
   .gitignore
+  assets/
+    roadmap-preview.svg
   design2ai-demo.zip
   design2ai-demo/
     SKILL.md
@@ -87,21 +152,14 @@ The skill is designed to return:
       release-check.md
 ```
 
-## Installation
+## What The Skill Returns
 
-Use the `design2ai-demo/` folder as the installable skill package.
-
-For local Codex-style skill usage, copy the folder into your skills directory:
-
-```bash
-cp -R design2ai-demo ~/.codex/skills/
-```
-
-Then invoke:
-
-```text
-Use $design2ai-demo to create a six-week AI demo plan for a UX designer with interview notes and basic JavaScript.
-```
+- Assumptions and learner profile
+- Recommended demo concept
+- Technical stack and why it is enough
+- Six-week table with weekly goals, learning resources, build tasks, deliverables, and done criteria
+- What not to learn yet
+- Final portfolio package checklist
 
 ## Validation
 
@@ -111,11 +169,9 @@ This skill has passed the official `quick_validate.py` structure check:
 Skill is valid!
 ```
 
-The package also includes `evals/test-prompts.md` for manual forward testing.
+The package includes `evals/test-prompts.md` for manual forward testing.
 
 ## Release Notes
-
-Current release target:
 
 - Public language: English
 - Default audience: designers, architects, HCI/UX students, and creative technologists

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">design2ai_demo six-week roadmap preview</title>
+  <desc id="desc">A six-week roadmap from design background to a portfolio-ready AI demo.</desc>
+  <rect width="1280" height="640" fill="#FAFAF7"/>
+  <rect x="0" y="0" width="1280" height="640" fill="none" stroke="#111" stroke-width="2"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif" fill="#111">
+    <text x="72" y="86" font-size="28" font-weight="700" letter-spacing="2">DESIGN2AI_DEMO</text>
+    <text x="72" y="150" font-size="58" font-weight="300">Ship your first AI demo in 6 weeks</text>
+    <text x="72" y="198" font-size="24" fill="#555">A pragmatic skill for designers, architects, HCI/UX students, and creative technologists.</text>
+  </g>
+  <line x1="72" y1="245" x2="1208" y2="245" stroke="#111" stroke-width="1"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <g transform="translate(72 298)">
+      <rect width="164" height="198" fill="#002FA7"/>
+      <text x="22" y="42" font-size="19" font-weight="700" fill="#FFF">WEEK 01</text>
+      <text x="22" y="90" font-size="30" font-weight="300" fill="#FFF">Scope</text>
+      <text x="22" y="128" font-size="17" fill="#DDE7FF">Demo brief</text>
+      <text x="22" y="154" font-size="17" fill="#DDE7FF">5 real inputs</text>
+    </g>
+    <g transform="translate(262 298)">
+      <rect width="164" height="198" fill="#FFFFFF" stroke="#111"/>
+      <text x="22" y="42" font-size="19" font-weight="700" fill="#002FA7">WEEK 02</text>
+      <text x="22" y="90" font-size="30" font-weight="300" fill="#111">Shell</text>
+      <text x="22" y="128" font-size="17" fill="#444">Clickable UI</text>
+      <text x="22" y="154" font-size="17" fill="#444">Fake output</text>
+    </g>
+    <g transform="translate(452 298)">
+      <rect width="164" height="198" fill="#FFFFFF" stroke="#111"/>
+      <text x="22" y="42" font-size="19" font-weight="700" fill="#002FA7">WEEK 03</text>
+      <text x="22" y="90" font-size="30" font-weight="300" fill="#111">Model</text>
+      <text x="22" y="128" font-size="17" fill="#444">Claude API</text>
+      <text x="22" y="154" font-size="17" fill="#444">Live response</text>
+    </g>
+    <g transform="translate(642 298)">
+      <rect width="164" height="198" fill="#FFFFFF" stroke="#111"/>
+      <text x="22" y="42" font-size="19" font-weight="700" fill="#002FA7">WEEK 04</text>
+      <text x="22" y="90" font-size="30" font-weight="300" fill="#111">Shape</text>
+      <text x="22" y="128" font-size="17" fill="#444">Schema</text>
+      <text x="22" y="154" font-size="17" fill="#444">Fallbacks</text>
+    </g>
+    <g transform="translate(832 298)">
+      <rect width="164" height="198" fill="#FFFFFF" stroke="#111"/>
+      <text x="22" y="42" font-size="19" font-weight="700" fill="#002FA7">WEEK 05</text>
+      <text x="22" y="90" font-size="30" font-weight="300" fill="#111">Ship</text>
+      <text x="22" y="128" font-size="17" fill="#444">JSON / CSV</text>
+      <text x="22" y="154" font-size="17" fill="#444">Vercel link</text>
+    </g>
+    <g transform="translate(1022 298)">
+      <rect width="186" height="198" fill="#111"/>
+      <text x="22" y="42" font-size="19" font-weight="700" fill="#FFF">WEEK 06</text>
+      <text x="22" y="90" font-size="30" font-weight="300" fill="#FFF">Prove</text>
+      <text x="22" y="128" font-size="17" fill="#EEE">Failure tests</text>
+      <text x="22" y="154" font-size="17" fill="#EEE">Case study</text>
+    </g>
+  </g>
+  <g font-family="Inter, Helvetica, Arial, sans-serif" fill="#111">
+    <text x="72" y="562" font-size="20" font-weight="700">知城 / The Z Labs × Soda Chat</text>
+    <text x="806" y="562" font-size="20" fill="#555">No full CS curriculum. One focused AI demo.</text>
+  </g>
+</svg>

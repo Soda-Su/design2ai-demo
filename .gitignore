@@ -1,5 +1,8 @@
 .DS_Store
 __MACOSX/
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
 
 # Local archives can be regenerated.
 *.zip
