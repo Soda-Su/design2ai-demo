@@ -4,6 +4,7 @@
 ![Audience](https://img.shields.io/badge/audience-designers%20%7C%20architects%20%7C%20HCI%2FUX-111111)
 ![Plan](https://img.shields.io/badge/plan-6%20weeks-00A86B)
 ![Stack](https://img.shields.io/badge/stack-Next.js%20%2B%20Claude%20API%20%2B%20Vercel-6B46C1)
+![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
 ![Codex](https://img.shields.io/badge/works%20with-Codex-0A0A0A)
 ![Claude](https://img.shields.io/badge/works%20with-Claude-DA7756)
 
@@ -180,4 +181,6 @@ The package includes `evals/test-prompts.md` for manual forward testing.
 
 ## License
 
-Add a license before final public release. MIT is a reasonable default if the goal is permissive reuse.
+This project is released under the **GNU Affero General Public License v3.0**.
+
+See [LICENSE](LICENSE) for details.
